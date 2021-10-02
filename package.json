@@ -1,0 +1,23 @@
+{
+  "name": "@notverywellc/templates",
+  "version": "0.0.0",
+  "description": "templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NotVeryWellF/templates.git"
+  },
+  "author": "NotVeryWellF",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NotVeryWellF/templates/issues"
+  },
+  "homepage": "https://github.com/NotVeryWellF/templates#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-hbs": "^2.4.0"
+  }
+}
