@@ -10,18 +10,15 @@
 
 <body>
     <script src="{{{baseUrl}}}/fire.app/{{{fireAppVersion}}}/index.js"></script>
-    
-    <script>
-    
-    fireApp(
-        {
-            apps: {{{apps}}}
-        }
-    )
-    
-    </script>
 
-    <div id="root"></div>
+    <script>
+        fireApp({
+            apps: {{{ apps }}},
+            navigations: {{{ navigations }}},
+            config: {{{ config }}},
+            features: {{{ features }}},
+        })
+    </script>
 </body>
 
 </html>
